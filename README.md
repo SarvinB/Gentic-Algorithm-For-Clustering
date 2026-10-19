@@ -2,8 +2,6 @@
 
 An educational Python implementation of **genetic-algorithm-based clustering** using the [Iris dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set). Instead of updating cluster centroids as in K-Means, this project searches over different assignments of data points to clusters using selection, crossover, and mutation.
 
-> **Project status:** This repository is an experimental/educational implementation, **not a validated clustering benchmark**. The current code has known issues in mutation, distance calculation, and final solution selection. See [Known limitations](#known-limitations) before interpreting the output.
-
 ## Overview
 
 The goal is to assign **150 Iris flowers** to **3 clusters** using their four numerical measurements:
